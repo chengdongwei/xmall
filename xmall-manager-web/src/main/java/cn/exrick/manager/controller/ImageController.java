@@ -31,7 +31,7 @@ public class ImageController {
 
         String imagePath=null;
         // 文件保存路径
-        String filePath = request.getSession().getServletContext().getRealPath("/upload")+"\\"
+        String filePath = request.getSession().getServletContext().getRealPath("/upload")+"/"
                 + QiniuUtil.renamePic(files.getOriginalFilename());
         // 转存文件
         try {
@@ -59,7 +59,7 @@ public class ImageController {
 
         KindEditorResult kindEditorResult=new KindEditorResult();
         // 文件保存路径
-        String filePath = request.getSession().getServletContext().getRealPath("/upload")+"\\"
+        String filePath = request.getSession().getServletContext().getRealPath("/upload")+"/"
                 + QiniuUtil.renamePic(files.getOriginalFilename());
         //检查文件
         String message=QiniuUtil.isValidImage(request,files);

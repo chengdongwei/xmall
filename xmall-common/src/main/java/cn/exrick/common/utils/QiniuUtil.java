@@ -50,7 +50,7 @@ public class QiniuUtil {
     public static String qiniuUpload(String filePath){
 
         //构造一个带指定Zone对象的配置类 zone2华南
-        Configuration cfg = new Configuration(Zone.zone2());
+        Configuration cfg = new Configuration(Zone.zone1());
 
         UploadManager uploadManager = new UploadManager(cfg);
 
