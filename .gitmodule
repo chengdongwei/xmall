@@ -1,0 +1,3 @@
+[submodule "xmall-front"]
+	path = xmall-front
+	url = https://github.com/chengdongwei/xmall-front.git
