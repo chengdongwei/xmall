@@ -128,5 +128,6 @@
     <orderEntry type="library" name="Maven: org.opensymphony.quartz:quartz:1.6.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.shiro:shiro-spring:1.4.0" level="project" />
     <orderEntry type="module" module-name="xmall-search-interface" />
+    <orderEntry type="library" name="Maven: cn.hutool:hutool-all:4.0.5" level="project" />
   </component>
 </module>
